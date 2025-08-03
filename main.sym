@@ -1,0 +1,53 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+021     main.@SCRATCH1
+022     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09B-09C @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+000004  @delay_ms1
+000019  @cinit1
+000019  main
+000021  @cinit2
+
+Project Directory:
+    C:\Temp\Codigos MicroControladores\Codigos\piscaLed\
+
+Project Files:
+    main.c                                                  [03-ago-25 13:21  CRC=F727D750]
+    ..\..\..\..\Program Files (x86)\PICC\devices\16F628a.h  [21-out-22 11:01  CRC=A4ABE9C7]
+    ..\..\..\..\Program Files (x86)\PICC\devices\16F628A.h  [21-out-22 11:01  CRC=A4ABE9C7]
+
+Source signature=E52B94A5
+Program memory checksum=0000
+Hex file CRC=F691
+
+Units:
+    C:\Temp\Codigos MicroControladores\Codigos\piscaLed\main (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    Errors:      main.err
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
